@@ -13,7 +13,6 @@
 body  a:hover 
 {
     color: rgba(0, 0, 0, 0.39);
-   
 }
 .header
 {
@@ -223,6 +222,10 @@ body  a:hover
 {
     margin-right: 30px;
 }
+.company ul li img:hover 
+{
+    transform: scale(120%);
+}
 
 /* ACCOUNT */
 .account 
@@ -390,7 +393,10 @@ body  a:hover
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-
+.card:hover 
+{
+    transform: scale(110%);
+}
 .card h1 
 {
     color: #242323;
@@ -521,6 +527,10 @@ body  a:hover
     box-shadow: 0 0 50px #7a7a6a36;
     overflow: hidden;
 }
+.boxex:hover 
+{
+    transform: scale(110%);
+}
 .boxex img
 {
     width: 142px;
@@ -588,6 +598,10 @@ body  a:hover
     line-height: 68px;
 
 }
+.footer button:hover 
+{
+   transform: scale(110%);
+}
 .footer button:nth-child(2)
 {
     width: 147px;
@@ -599,6 +613,7 @@ body  a:hover
     font-weight: 600;
     line-height: 50px;
     border-radius: 5px;
+    cursor: pointer;
     margin-top: 50px;
 }
 .footer button:nth-child(3)
@@ -607,6 +622,7 @@ body  a:hover
     text-decoration: none;
     border: 1px solid white;
     font-size: 20px;
+    cursor: pointer;
     background-color:rgba(255, 255, 255, 1);
     font-family: Open Sans;
     font-weight: 600;
